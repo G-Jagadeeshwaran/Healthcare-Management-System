@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './pages/home';
 import Plogin from './pages/plogin';
+import Psignup from './pages/psignup';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="Home" element={<Home></Home>}></Route>
         <Route path='Plogin' element={<Plogin></Plogin>}></Route>
+        <Route path='Psignup' element={<Psignup></Psignup>}></Route>
       </Routes>
     </div>
   );
