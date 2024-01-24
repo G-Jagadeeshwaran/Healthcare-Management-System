@@ -6,7 +6,7 @@
 
 .home {
     height: 100vh;
-    background-image: url(../assets/bgimg2.jpg);
+    background-image: url(../Assets/bgimg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,6 +49,10 @@
 
 #Home .l-btn {
     margin-top: 22px;
+}
+
+#Home .l-btn:active {
+    transform: scale(0.95);
 }
 
 #Home a {

@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/home.css";
-import pimg from '../assets/patientimg.svg';
-import dimg from '../assets/docimg.jpg';
+import "../Home page/home.css";
+import pimg from '../Assets/patientimg.svg';
+import dimg from '../Assets/docimg.jpg';
 
 const Home = () => {
     return (
@@ -24,7 +24,7 @@ const Home = () => {
                 <img src={dimg} className="docimg" alt="" />
                 <p>Doctor login</p>
                 <div className="l-btn">
-                    <a href="">Login</a>
+                    <a href="/Dlogin">Login</a>
                 </div>
             </div>
 

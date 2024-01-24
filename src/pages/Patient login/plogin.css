@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    height: 91.1vh;
+    background-image: url(../Assets/Doctor_tools_and_Medical_elements_pattern_cartoon_hand_drawn_cartoon_art_illustration.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+#plogin .plogin-content {
+    width: 480px;
+    height: 470px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: #333333;
+}
+
+#plogin h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#plogin .input-div>input {
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 65px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#plogin .summit-btn>input {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 11.5rem;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgb(55, 186, 147)26.7%, rgb(21, 218, 178))99.3%;
+}
+
+#plogin .summit-btn>:hover {
+    color: black;
+    background: white;
+    border: 2px solid  rgb(21, 218, 178);
+}
+
+#plogin .summit-btn>:active {
+    transform: scale(0.95);
+}
+
+#plogin .signup-link{
+    color: white;
+    margin-top: 30px;
+    margin-left: 6rem;
+}
+
+#plogin a {
+    text-decoration: none;
+    color:  rgb(21, 218, 178);
+}
+
+#plogin a:hover {
+    text-decoration: underline;
+}

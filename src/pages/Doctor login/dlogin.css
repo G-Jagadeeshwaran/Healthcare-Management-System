@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.login {
+.dlogin {
     height: 91.1vh;
-    background-image: url(../assets/Doctor_tools_and_Medical_elements_pattern_cartoon_hand_drawn_cartoon_art_illustration.jpg);
+    background-image: url(../Assets/docbg1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,37 +14,37 @@
     display: flex;
 }
 
-#plogin .plogin-content {
+#doclogin .dlogin-content {
     width: 480px;
     height: 470px;
     border-radius: 50px;
     margin: auto;
-    background-color: #333333;
+    background-color: white;
 }
 
-#plogin h1 {
-    color: white;
+#doclogin h1 {
+    color: black;
     font-size: 30px;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     letter-spacing: 1px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-#plogin .input-div>input {
+#doclogin .input-div>input {
     display: inline-block;
     width: 350px;
     height: 35px;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-left: 65px;
     padding: 20px;
-    border: none;
+    border: 3px solid  rgb(29, 113, 217);
     outline: none;
     border-radius: 20px;
 }
 
-#plogin .summit-btn>input {
+#doclogin .summit-btn>input {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100px;
@@ -52,33 +52,32 @@
     border: none;
     outline: none;
     border-radius: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 11.5rem;
     cursor: pointer;
-    background: linear-gradient(180deg, rgb(55, 186, 147)26.7%, rgb(21, 218, 178))99.3%;
+    background: linear-gradient(180deg, rgb(57, 101, 156)26.7%,  rgb(29, 113, 217)99.3%);
 }
 
-#plogin .summit-btn>:hover {
+#doclogin .summit-btn>:hover {
     color: black;
     background: white;
-    border: 2px solid  rgb(21, 218, 178);
+    border: 3px solid  rgb(29, 113, 217);
 }
 
-#plogin .summit-btn>:active {
+#doclogin .summit-btn>:active {
     transform: scale(0.95);
 }
 
-#plogin .signup-link{
-    color: white;
+#doclogin .signup-link{
     margin-top: 30px;
     margin-left: 6rem;
 }
 
-#plogin a {
+#doclogin a {
     text-decoration: none;
-    color:  rgb(21, 218, 178);
+    color:   rgb(29, 113, 217);
 }
 
-#plogin a:hover {
+#doclogin a:hover {
     text-decoration: underline;
 }

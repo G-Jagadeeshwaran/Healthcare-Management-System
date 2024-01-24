@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dsignup {
+    height: 91.1vh;
+    background-image: url(../Assets/docbg1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+#docsignup .dsignup-content {
+    width: 480px;
+    height: 485px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: white;
+}
+
+#docsignup h1 {
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#docsignup .input-div>input {
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 65px;
+    padding: 20px;
+    border: 3px solid  rgb(29, 113, 217);
+    outline: none;
+    border-radius: 20px;
+}
+
+#docsignup .summit-btn>input {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 11.5rem;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgb(57, 101, 156)26.7%,  rgb(29, 113, 217)99.3%);
+}
+
+#docsignup .summit-btn>:hover {
+    color: black;
+    background: white;
+    border: 3px solid  rgb(29, 113, 217);
+}
+
+#docsignup .summit-btn>:active {
+    transform: scale(0.95);
+}
+
+#docsignup .login-link{
+    margin-top: 20px;
+    margin-left: 9rem;
+}
+
+#docsignup a {
+    text-decoration: none;
+    color:   rgb(29, 113, 217);
+}
+
+#docsignup a:hover {
+    text-decoration: underline;
+}
